@@ -3,7 +3,7 @@ body {
 	font-family: Trebuchet MS, sans-serif;
 	font-size: 16px;
 	color: #192941;
-	background: #ccc;
+	background: #d2d1d1;
 }
 
 .top-container {
@@ -11,7 +11,7 @@ body {
 	width: 100%;
 	position: relative;
 	text-align: center;
-	background: none; /* Add here a header image */
+	background: url(../img/header.png) repeat-x top left; /* Add here a header image */
 }
 
 .top-container > header {
@@ -79,7 +79,7 @@ body {
 }
 
 .angle:nth-child(even){
-	background: #ccc url(../img/grey.png) repeat;
+	background: #ccc url(../img/silver.png) repeat;
 	-webkit-transform: rotate(-5deg);
 	-moz-transform: rotate(-5deg);
 	-o-transform: rotate(-5deg);
@@ -105,6 +105,14 @@ body {
 	margin-bottom: 20px;
 	/* maybe a different font family */
 }
+.content h3 a {
+	color: black;
+	transition: 2s;
+}
+
+.content h3 a:hover {
+	color: #72ade4;
+}
 
 .content p {
 	width: 75%;
@@ -112,7 +120,11 @@ body {
 	margin: 0 auto;
 	font-size: 18px;
 	line-height: 24px;
-	padding-top: 10px;
+	padding: 10px;
+}
+
+.angle:nth-child(odd) .content p {
+	background: rgba(0,0,0,0.5);
 }
 
 .angle:nth-child(odd) .content {
@@ -139,6 +151,9 @@ body {
 	color: #fff;
 }
 
+/* Font Work */
+
+
 /* Media Queries */
 @media screen and (max-width: 1010px){
 	.content h3{
@@ -161,3 +176,4 @@ body {
 		
 	}
 }
+
