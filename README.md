@@ -1,4 +1,4 @@
-gergelytoth.github.io
+http://gergelytoth.github.io
 =====================
 
 Gergely's Portfolio
