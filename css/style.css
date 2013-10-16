@@ -114,6 +114,16 @@ body {
 	color: #72ade4;
 }
 
+.content h4 {
+	font-size: 40px;
+	position: relative;
+	display: inline-block;
+	padding: 5px 15px 4px 15px;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
 .content p {
 	width: 75%;
 	max-width: 500px;
@@ -121,6 +131,15 @@ body {
 	font-size: 18px;
 	line-height: 24px;
 	padding: 10px;
+}
+
+.content p a {
+	color: #6495ED; /* cornflowerblue */
+	transition: 2s;
+}
+
+.content p a:hover {
+	color: blue;
 }
 
 .angle:nth-child(odd) .content p {
