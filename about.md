@@ -9,6 +9,6 @@ Software Developer at [MPC](http://moving-picture.com) working on web based
 tools.
 
 Born with computers and been programming since I can remember. Currently
-my main focus is on JavaScript, that all trendy React, Node and whatnot.
+my main focus is on JavaScript, that all trendy React and NodeJS.
 
 Fascinated by terminals, tmux, and vim.
