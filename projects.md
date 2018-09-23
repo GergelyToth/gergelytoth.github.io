@@ -9,9 +9,7 @@ permalink: /projects/
 
 ## {{ project.title }}
 
-{% if project.github %}
-[Github]({{ project.github }})
-{% endif %}
+{% if project.website %} [Website]({{ project.website }}) {% endif %} {% if project.github %} [Github]({{ project.github }}) {% endif %}
 
 {{ project.output }}
 
